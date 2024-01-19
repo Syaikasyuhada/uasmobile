@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:uaspbo/pages/developer_page.dart';
 import 'package:uaspbo/pages/luas_page.dart';
 
 class HomePage extends StatefulWidget {
@@ -13,7 +14,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Uas Jaya'),
+        title: const Text('Uas PBO'),
       ),
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(10),
@@ -46,7 +47,13 @@ class _HomePageState extends State<HomePage> {
             CardWidget(
               title: "Profile Developer",
               subtitle: "Pilih untuk melihat profile developer",
-              onTap: () {},
+              onTap: () {
+                Navigator.push(context, MaterialPageRoute(
+                  builder: (context) {
+                    return const DeveloperPage();
+                  },
+                ));
+              },
             ),
           ],
         ),
