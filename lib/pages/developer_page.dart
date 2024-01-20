@@ -25,8 +25,8 @@ class DeveloperPage extends StatelessWidget {
                     subtitle: Text('Syaika Syuhada'),
                   ),
                   const ListTile(
-                    title: Text('NIM :'),
-                    subtitle: Text('2018020875'),
+                    title: Text(NPM :'),
+                    subtitle: Text('2010020015'),
                   ),
                   const ListTile(
                     title: Text('Jurusan :'),
