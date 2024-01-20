@@ -22,7 +22,7 @@ class DeveloperPage extends StatelessWidget {
                   ),
                   const ListTile(
                     title: Text('Nama :'),
-                    subtitle: Text('Syaika Syuhada'),
+                    subtitle: Text('Syaika Syuhda'),
                   ),
                   const ListTile(
                     title: Text("NPM :"),
@@ -30,7 +30,7 @@ class DeveloperPage extends StatelessWidget {
                   ),
                   const ListTile(
                     title: Text('Jurusan :'),
-                    subtitle: Text('Sistem Informasi'),
+                    subtitle: Text('Sistem Informasi Non Reguler Banjarbaru'),
                   ),
                   const ListTile(
                     title: Text('Fakultas :'),
